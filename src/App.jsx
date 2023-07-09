@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div>
       <NativeBar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
