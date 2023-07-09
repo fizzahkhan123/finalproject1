@@ -1,0 +1,21 @@
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-heading {
+    color: #f00; /* Replace with your desired color for the heading */
+    font-weight: bold;  
+  }
+  .price-tag {
+    color: rgb(235, 4, 74); /* Replace with your desired color for the price */
+  }
+  .price-tag {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
